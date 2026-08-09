@@ -1,0 +1,19 @@
+{
+    "name": "switch/error-handler",
+    "description": "Switch Framework Error Handling — exception handler, HTTP exceptions, debug/production renderers, and PSR-15 middleware",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Switch\\ErrorHandler\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Switch\\ErrorHandler\\Tests\\": "tests/"
+        }
+    }
+}
